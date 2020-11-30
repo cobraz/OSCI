@@ -13,3 +13,5 @@ areas:
 bq:
   project: ''
   secret: '{}'
+github:
+  token: ''

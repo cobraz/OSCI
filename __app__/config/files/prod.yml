@@ -14,3 +14,5 @@ areas:
 bq:
   project: 'osci_bq_project'
   secret: 'osci_bq_secret'
+github:
+  token: 'osci_gh_token'

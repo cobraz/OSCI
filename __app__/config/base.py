@@ -172,3 +172,7 @@ class Config(BaseConfig):
     @property
     def bq_project(self) -> str:
         return self.bq.get('project', '')
+
+    @property
+    def github_token(self) -> str:
+        return self.__cfg.get('github', dict()).get('token', '')
